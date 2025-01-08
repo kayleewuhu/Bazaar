@@ -1,4 +1,4 @@
-## Bazaar: 
+## Integration Tests: 
 
 ### Purpose:
 This directory allows the user to run integration tests for
