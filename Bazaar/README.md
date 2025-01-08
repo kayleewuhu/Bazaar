@@ -38,5 +38,8 @@ To run the unit tests:
   - Ensure maven is installed (will download testing library JUnit)
       - Run xtest shell script (./xtest)
 
+- To run the program, run XServer.java in Server folder to start the server and 
+  run XClient.java in Client folder in another shell to run clients.
+  - Sample input/output to both are provided in the Integration Tests directory outside.  
 ## Data representation relationships
 ![My Image](../Bazaar/Common/Assets/Bazaar-main.jpeg)

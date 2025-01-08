@@ -1,0 +1,4 @@
+[["good1", "purchase-points"],
+  ["bad0", "purchase-points", "request-cards"],
+  ["bad1", "purchase-size", "a cheat", "use-non-existent-equation"],
+  ["goodloop", "purchase-size", "setup", 2]]
