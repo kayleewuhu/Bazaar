@@ -1,0 +1,17 @@
+[]
+[]
+{
+  "bank": [],
+  "visibles": [
+    {
+      "pebbles": ["red","red","blue","blue","blue"],
+      "face?": true
+    },
+    {
+      "pebbles": ["red","red","red","red","red"],
+      "face?": false
+    }
+  ],
+  "cards": [],
+  "players": []
+}

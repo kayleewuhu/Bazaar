@@ -1,0 +1,89 @@
+//["looper", "purchase-points", "request-pebble-or-trades", 1],
+[["ezwin", "purchase-points"],
+["cheater", "purchase-size", "a cheat", "wallet-cannot-buy-card"],
+  ["looper", "purchase-points", "request-pebble-or-trades", 1],
+["exceptional", "purchase-size", "setup"],
+["exception1", "purchase-size", "win"],
+["cheater2", "purchase-points", "a cheat", "buy-unavailable-card"]]
+[
+  [["blue"], ["red", "red", "red", "red"]],
+  [["blue"], ["white", "white", "white", "white"]]
+]
+{
+  "bank": ["red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","red","white",
+    "white","white","white","white","white","white","white","white","white","white","white","white","white","white"],
+  "visibles": [
+    {
+      "pebbles": ["red","red","red","red","red"],
+      "face?": true
+    },
+    {
+      "pebbles": ["white","white","white","white","white"],
+      "face?": true
+    },
+    {
+      "pebbles": ["red","red","red","red","red"],
+      "face?": true
+    },
+    {
+      "pebbles": ["white","white","white","white","white"],
+      "face?": true
+    }
+  ],
+  "cards": [
+    {
+      "pebbles": ["red","red","red","red","red"],
+      "face?": true
+    },
+    {
+      "pebbles": ["white","white","white","white","white"],
+      "face?": true
+    },
+    {
+      "pebbles": ["red","red","red","red","red"],
+      "face?": true
+    }
+  ],
+  "players": [
+    {
+      "cards": [
+        {
+        "pebbles": ["red","blue","white","red","red"],
+        "face?": true
+        },
+        {
+          "pebbles": ["green","blue","white","red","yellow"],
+          "face?": true
+        }
+      ],
+      "wallet": ["blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue"],
+      "score": 0
+    },
+    {
+      "cards": [],
+      "wallet": ["green", "green"],
+      "score": 1
+    },
+    {
+      "cards": [],
+      "wallet": [],
+      "score": 3
+    },
+    {
+      "cards": [],
+      "wallet": ["green"],
+      "score": 5
+    },
+    {
+      "cards": [],
+      "wallet": ["green", "green"],
+      "score": 1
+    },
+    {
+      "cards": [],
+      "wallet": ["green", "green"],
+      "score": 1
+    }
+  ]
+}
+"SEY"

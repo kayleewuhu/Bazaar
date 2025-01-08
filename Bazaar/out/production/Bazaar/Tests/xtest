@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Run all JUnit tests and store the output in a temporary file
+output=$(mvn test)
+
+# Capture number of test cases run, passed, and failed
+tests_run=$(echo "$output" | grep -oP '(?<=Tests runGame: )\d+')
+failures=$(echo "$output" | grep -oP '(?<=Failures: )\d+')
+errors=$(echo "$output" | grep -oP '(?<=Errors: )\d+')
+
+# Total failed test cases (failures + errors)
+total_failed=$((failures + errors))
+
+# Check if there were any failed tests
+if [ "$total_failed" -eq 0 ]; then
+    echo "All tests passed! ($tests_run tests run)"
+else
+    echo "$total_failed test(s) failed out of $tests_run"
+    echo "Details:"
+    echo "$output" | grep -A 10 '<<< FAILURE!'  # Show the part of output related to failures
+fi
+
+# Ensure the script does not fail if there are failing tests
+exit 0

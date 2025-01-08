@@ -1,0 +1,19 @@
+[["ezwin","purchase-points"]]
+[[["red", "red", "white"], ["blue", "blue", "blue"]]]
+{
+  "bank": [],
+  "visibles": [
+    {
+      "pebbles": ["red","red","blue","blue","blue"],
+      "face?": true
+    }
+  ],
+  "cards": [],
+  "players": [
+    {
+      "wallet": [],
+      "cards": [],
+      "score": 15
+    }
+  ]
+}
